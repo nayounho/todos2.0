@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>todos 2.0</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./js.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Todo-List 2.0</h1>
+        <form class="todoForm">
+          <input type="text" class="input-todos" placeholder="금일 해야 할 일을 입력하세요" />
+          <button class="addTodo">ADD</button>
+        </form>
+      </header>
+      <main class="todoList">
+        <ul class="nav">
+          <li id="all" class="active">All</li>
+          <li id="active">Active</li>
+          <li id="completed">Completed</li>
+        </ul>
+        <ul class="todos"></ul>
+      </main>
+      <footer>
+        <section>
+          <input id="ck-completed-all" class="all-checked" type="checkbox" />
+          <label for="ck-completed-all">All Checked</label>
+        </section>
+        <section class="completed-delete">
+          <button class="completed-del-btn">
+            completed delete
+            <span class="completed-del-text">0</span>
+          </button>
+          <span class="completed-active-btn">0</span>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

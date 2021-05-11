@@ -1,0 +1,82 @@
+.wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
+header {
+  border: 1px solid #000;
+  width: 500px;
+  height: 110px;
+  padding: 5px;
+}
+header > h1 {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+.input-todos {
+  width: 200px;
+}
+
+main {
+  border: 1px solid #000;
+  width: 500px;
+  margin-top: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.nav > li {
+  display: inline-block;
+  outline: 1px solid #000;
+  width: 100%;
+}
+
+.todos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.todos > li {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid blue;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* .todos > input[type="checkbox"] {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+} */
+
+footer {
+  display: flex;
+  margin-top: 10px;
+  position: relative;
+  width: 500px;
+}
+
+footer > section > span {
+  margin-left: 3px;
+}
+
+.completed-delete {
+  position: absolute;
+  right: 0;
+}
+
+.completed-del-text {
+  font-weight: 900;
+  color: blue;
+}
